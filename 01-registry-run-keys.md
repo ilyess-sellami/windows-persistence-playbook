@@ -89,7 +89,7 @@ Payload Runs
 ## Example
 
 ```text
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "Reverse" /t REG_SZ /d "\"C:\Program Files\MyFolder\reverse.exe\"" /f
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "Malicious" /t REG_SZ /d "\"C:\Temp\malicious.exe\"" /f
 ```
 
 ---
