@@ -42,7 +42,7 @@ Trigger Event (Time / Logon / Startup)
 
 ## Example
 
-```
+```cmd
 schtasks /create /sc minute /mo 5 /tn "Malicious" /tr "C:\Temp\malicious.exe" /f
 ```
 
