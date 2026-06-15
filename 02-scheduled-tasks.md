@@ -43,7 +43,7 @@ Trigger Event (Time / Logon / Startup)
 ## Example
 
 ```
-schtasks /create /sc minute /mo 5 /tn "ReverseTask" /tr "C:\Path\to\reverse.exe" /f
+schtasks /create /sc minute /mo 5 /tn "Malicious" /tr "C:\Temp\malicious.exe" /f
 ```
 
 ---
