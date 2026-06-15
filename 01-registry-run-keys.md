@@ -88,7 +88,7 @@ Payload Runs
 
 ## Example
 
-```text
+```cmd
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "Malicious" /t REG_SZ /d "\"C:\Temp\malicious.exe\"" /f
 ```
 
