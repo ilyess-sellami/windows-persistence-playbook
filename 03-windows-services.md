@@ -55,7 +55,7 @@ Persistent Execution Achieved
 
 ## Example 
 
-```text
+```cmd
 sc create "Malicious" binPath= "C:\Temp\malicious.exe" start= auto
 ```
 
