@@ -84,8 +84,12 @@ Configured Command Executes
 Payload Runs
 ```
 
+---
+
+## Example
+
 ```text
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "MyProgram" /t REG_SZ /d "\"C:\Program Files\MyFolder\program.exe\"" /f
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "Reverse" /t REG_SZ /d "\"C:\Program Files\MyFolder\reverse.exe\"" /f
 ```
 
 ---
