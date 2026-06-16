@@ -1,5 +1,7 @@
 # 🪟 Windows Persistence Playbook
 
+![](docs/Banner-Image.png)
+
 ## Overview
 
 This repository documents the most common Windows persistence techniques used in red team operations and real-world adversary simulations.
