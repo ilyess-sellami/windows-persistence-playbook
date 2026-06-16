@@ -1,4 +1,4 @@
-# 🪟 Windows Persistence Playbook
+# Windows Persistence Playbook
 
 ![](docs/Banner-Image.png)
 
