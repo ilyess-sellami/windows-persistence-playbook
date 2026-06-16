@@ -12,7 +12,7 @@ The goal is to understand how attackers maintain access after initial compromise
 
 ## 🎯 Covered Techniques
 
-This project focuses on the **Top 5 persistence methods** used in Windows environments:
+This project focuses on the **Top persistence methods** used in Windows environments:
 
 1. [Registry Run Keys / RunOnce](01-registry-run-keys.md)
 2. [Scheduled Tasks](02-scheduled-tasks.md)
